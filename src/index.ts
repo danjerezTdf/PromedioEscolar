@@ -1,3 +1,11 @@
+/* 
+Promedio Escolar
+•Desarrolle un algoritmo que permita cargar alumnos y sus notas en los tres trimestres
+•Se debe permitir obtener el promedio anual (es decir, de sus tres notas) de un alumno (ingresado por el usuario)
+•Luego de resolverlo, pensar en aprovechar métodos y discutir como representar la información
+*/
+
+
 // declaro variables
 let cantidadAlumnos: number = Number(prompt(`Ingrese la cantidad de Alumnos:`));
 let alumnosIn: string[] = new Array(cantidadAlumnos);
